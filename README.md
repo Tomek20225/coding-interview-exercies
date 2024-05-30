@@ -37,17 +37,17 @@ You can run tests for a specific task using the `run.sh` script.
 ### TypeScript
 
 ```sh
-pnpm ts 1
+pnpm ts 01
 ```
 
 ### Go
 
 ```sh
-pnpm go 1
+pnpm go 01
 ```
 
 ### Rust
 
 ```sh
-pnpm rs 1
+pnpm rs 01
 ```
