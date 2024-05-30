@@ -11,6 +11,9 @@ coverage/
 *.js
 *.d.ts
 
+# Allow specific files
+!typescript/jest.config.js
+
 # macOS
 .DS_Store
 

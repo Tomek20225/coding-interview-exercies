@@ -7,7 +7,7 @@ if [ "$LANGUAGE" = "ts" ]; then
   TASK_DIR="typescript/task_$TASK"
   TEST_FILE="$TASK_DIR/task_${TASK}.test.ts"
   echo "Running TypeScript tests for Task $TASK..."
-  npx jest $TEST_FILE
+  npx jest $TEST_FILE --config=typescript/jest.config.js
 elif [ "$LANGUAGE" = "go" ]; then
   TASK_DIR="go/task_$TASK"
   echo "Running Go tests for Task $TASK..."
