@@ -1,1 +1,71 @@
-/.DS_Store
+# Node.js / TypeScript
+node_modules/
+dist/
+out/
+*.log
+*.tsbuildinfo
+coverage/
+.DS_Store
+
+# TypeScript compiled files
+*.js
+*.d.ts
+
+# macOS
+.DS_Store
+
+# Go
+/bin
+/pkg
+*.exe
+*.test
+*.log
+
+# Rust
+/target/
+Cargo.lock
+*.rs.bk
+
+# VSCode
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Tests outputs
+test-output/
+*.log
+coverage/
+*.out
+
+# Miscellaneous
+*.tmp
+*.temp
+*.bak
+*.old
+
+# System files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.log.*
+
+# Env files
+.env
+.env.*

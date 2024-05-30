@@ -1,0 +1,16 @@
+{
+  "name": "coding-interview-exercises",
+  "private": true,
+  "scripts": {
+    "ts": "./run.sh ts",
+    "go": "./run.sh go",
+    "rs": "./run.sh rs"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "eslint": "^7.0.0"
+  }
+}
