@@ -39,7 +39,7 @@ The problems are inspired by the book "Cracking the Coding Interview" by Gayle L
 
 ## Running Tests
 
-You can run tests for a specific task using the `run.sh` script.
+You can run tests for a specific task using `pnpm` or the `run.sh` script directly.
 
 ### TypeScript
 
