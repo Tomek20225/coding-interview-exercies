@@ -29,6 +29,13 @@ The problems are inspired by the book "Cracking the Coding Interview" by Gayle L
   - `task_02/`
     - `task_02.ts`
     - `task_02.test.ts`
+- `python/`
+  - `task_01/`
+    - `task_01.py`
+    - `test_task_01.py`
+  - `task_02/`
+    - `task_02.py`
+    - `test_task_02.py`
 
 ## Running Tests
 
@@ -50,4 +57,10 @@ pnpm go 01
 
 ```sh
 pnpm rs 01
+```
+
+### Python
+
+```sh
+pnpm py 01
 ```

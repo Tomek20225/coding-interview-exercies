@@ -29,6 +29,10 @@ coverage/
 Cargo.lock
 *.rs.bk
 
+# Python
+__pycache__/
+*.pyc
+
 # VSCode
 .vscode/
 

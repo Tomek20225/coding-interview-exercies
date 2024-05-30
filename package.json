@@ -4,7 +4,8 @@
   "scripts": {
     "ts": "./run.sh ts",
     "go": "./run.sh go",
-    "rs": "./run.sh rs"
+    "rs": "./run.sh rs",
+    "py": "./run.sh py"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

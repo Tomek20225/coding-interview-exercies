@@ -1,7 +1,7 @@
-import { reverseString } from "./task_01";
+import { reverseString } from './task_01';
 
-test("reverseString test", () => {
-  const input = "hello";
-  const expectedOutput = "olleh";
+test('reverseString test', () => {
+  const input = 'hello';
+  const expectedOutput = 'olleh';
   expect(reverseString(input)).toBe(expectedOutput);
 });
