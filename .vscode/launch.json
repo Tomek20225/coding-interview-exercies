@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Go: Launch",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/go/task_${relativeFileDirname}/task_${relativeFileDirname}.go",
+      "cwd": "${workspaceFolder}/go/task_${relativeFileDirname}"
+    },
+    {
+      "name": "Rust: Cargo Run",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/rust/task_${relativeFileDirname}/target/debug/${workspaceFolderBasename}",
+      "args": [],
+      "cwd": "${workspaceFolder}/rust/task_${relativeFileDirname}",
+      "preLaunchTask": "cargo build"
+    },
+    {
+      "name": "TypeScript: Launch Program",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/typescript/task_${relativeFileDirname}/task_${relativeFileDirname}.ts",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": ["${workspaceFolder}/typescript/dist/**/*.js"],
+      "cwd": "${workspaceFolder}/typescript/task_${relativeFileDirname}"
+    }
+  ]
+}

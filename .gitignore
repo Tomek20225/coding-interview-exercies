@@ -25,7 +25,7 @@ coverage/
 *.log
 
 # Rust
-/target/
+target/
 Cargo.lock
 *.rs.bk
 
@@ -34,7 +34,7 @@ __pycache__/
 *.pyc
 
 # VSCode
-.vscode/
+# .vscode/
 
 # IntelliJ
 .idea/

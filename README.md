@@ -12,30 +12,20 @@ The problems are inspired by the book "Cracking the Coding Interview" by Gayle L
   - `task_01/`
     - `task_01.go`
     - `task_01_test.go`
-  - `task_02/`
-    - `task_02.go`
-    - `task_02_test.go`
 - `rust/`
   - `task_01/`
-    - `main.rs`
-    - `lib.rs`
-  - `task_02/`
-    - `main.rs`
-    - `lib.rs`
+    - `Cargo.toml`
+    - `src/`
+      - `main.rs`
+      - `lib.rs`
 - `typescript/`
   - `task_01/`
     - `task_01.ts`
     - `task_01.test.ts`
-  - `task_02/`
-    - `task_02.ts`
-    - `task_02.test.ts`
 - `python/`
   - `task_01/`
     - `task_01.py`
     - `test_task_01.py`
-  - `task_02/`
-    - `task_02.py`
-    - `test_task_02.py`
 
 ## Running Tests
 
